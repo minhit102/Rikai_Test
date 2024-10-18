@@ -1,0 +1,98 @@
+/* PostCRUD.css */
+
+/* Container tổng */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  .post-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-item {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-item h3 {
+    margin: 0 0 10px;
+  }
+  
+  .post-item p {
+    margin: 5px 0;
+  }
+  
+  .post-item .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .post-item button {
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .post-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .post-item .delete-btn {
+    background-color: #f44336;
+  }
+  
+  .post-item .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
